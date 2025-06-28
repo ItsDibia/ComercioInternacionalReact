@@ -1,0 +1,22 @@
+
+const requisitosExportacion = {
+  "Registro en la DIAN": "Para exportar productos, es obligatorio registrarse en la DIAN (Dirección de Impuestos y Aduanas Nacionales) como exportador. Este registro permite a las autoridades fiscales controlar las exportaciones y garantizar que se cumplan con las regulaciones impuestas. Además, el registro proporciona un RUT (Registro Único Tributario) que es necesario para todas las transacciones comerciales internacionales y para obtener los beneficios fiscales correspondientes.",
+  
+  "Licencias y permisos": "Algunos productos, especialmente los artesanales o aquellos fabricados con materiales específicos, requieren permisos adicionales. Por ejemplo, si el producto incluye materiales naturales como ciertas maderas o minerales, puede ser necesario obtener permisos ambientales que certifiquen que los recursos utilizados son sostenibles o legales. Estos permisos varían según el producto y el destino al que se exporte, por lo que es importante consultar las regulaciones locales y extranjeras.",
+  
+  "Clasificación arancelaria": "Es fundamental clasificar correctamente los productos según su tipo y características. La clasificación arancelaria determinará el arancel aduanero que se deberá pagar al ingresar el producto al país de destino. Si la clasificación es incorrecta, puede generar problemas legales, como sanciones o retrasos en el proceso de exportación, y en algunos casos, la mercancía puede ser retenida en aduanas.",
+  
+  "Revisión de acuerdos comerciales": "Antes de exportar, es esencial verificar si el país de destino tiene acuerdos comerciales con Colombia. Estos acuerdos, como tratados de libre comercio (TLC), pueden facilitar el proceso de exportación al reducir o incluso eliminar ciertos aranceles. Es importante conocer los beneficios que pueden ofrecer estos tratados para optimizar costos y tiempo de entrega.",
+  
+  "Normas de calidad y certificaciones": "Muchos países tienen normativas estrictas sobre la calidad de los productos que ingresan a su territorio. Asegúrate de que tu producto cumpla con las normativas internacionales o específicas del país de destino, como normas ISO, certificaciones de autenticidad o sustentabilidad. Esto es especialmente relevante para productos como la joyería artesanal, que puede necesitar una certificación que garantice su origen y calidad.",
+  
+  "Conformidad con normas de etiquetado": "La mayoría de los países tienen regulaciones específicas sobre el etiquetado de los productos importados. Esto puede incluir información sobre el país de origen, los materiales utilizados, las instrucciones de uso o los detalles sobre la composición del producto. Es fundamental que verifiques los requisitos de etiquetado del país de destino para evitar problemas en la aduana o posibles rechazos del producto.",
+  
+  "Registro de propiedad intelectual": "Si tu diseño de joyería es único o tiene una característica especial, es recomendable registrarlo como propiedad intelectual. Esto puede incluir marcas registradas, patentes o derechos de autor que te protejan legalmente contra el uso no autorizado de tu producto en otros países. El registro te da derechos exclusivos sobre tu diseño y te permite emprender acciones legales en caso de infracción.",
+  
+  "Documentación en regla": "Asegúrate de tener toda la documentación necesaria y actualizada antes de realizar la exportación. Esto incluye la factura comercial, el certificado de origen, los documentos de transporte (como el conocimiento de embarque) y cualquier otro documento requerido por las autoridades aduaneras. La falta de documentación puede causar retrasos en el proceso de exportación o incluso la incautación de la mercancía.",
+  
+  "Asesoría legal": "Contar con asesoría legal especializada en comercio internacional puede ser fundamental para navegar el proceso de exportación. Un abogado o consultor experto puede ayudarte a resolver dudas sobre regulaciones específicas, procedimientos aduaneros, normativas comerciales internacionales y posibles obstáculos que puedas encontrar en el proceso. Esta asesoría es especialmente útil si planeas exportar productos a varios países o si estás iniciando en el comercio internacional."
+};
+
+export default requisitosExportacion;
