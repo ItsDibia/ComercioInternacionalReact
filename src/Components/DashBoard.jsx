@@ -9,7 +9,7 @@ const MarketDashboard = () => {
   const [activeTab, setActiveTab] = useState('sectors');
   const [chartType, setChartType] = useState('line');
 
-  const API_BASE_URL = 'http://localhost:8000';
+  const API_BASE_URL = 'https://apicomerciointernacionalreact-1.onrender.com/';
 
   // Función para obtener datos de sectores
   const fetchSectorsData = async () => {
