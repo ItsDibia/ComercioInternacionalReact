@@ -12,7 +12,6 @@ export default function NavBar() {
     { nombre: "Distribución y Recepción", path: "/distribucion-recepcion" },
     { nombre: "Directorio de Términos", path: "/terminos" },
     { nombre: "Comportamiento de Mercados", path: "/comportamiento-mercado" },
-    { nombre: "Identificación de Mercados", path: "/identificacion-mercados" },
   ];
 
   return (
