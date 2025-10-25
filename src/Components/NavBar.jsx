@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 
 export default function NavBar() {
-  const contenido = [
-    { nombre: "Introducción", path: "/" },
-    { nombre: "Requisitos Legales", path: "/requisitos-legales" },
+  const menuItems = [
+    { nombre: "Requisitos Legales", path: "/" }, // ahora la vista principal
     { nombre: "Mercados Internacionales", path: "/mercados-internacionales" },
     { nombre: "Documentación", path: "/documentacion" },
     { nombre: "Medios de Transporte", path: "/medios-de-transporte" },
@@ -17,14 +16,13 @@ export default function NavBar() {
   return (
     <nav className="bg-white shadow-md">
       <ul className="flex flex-wrap justify-center gap-6 px-6 py-4">
-        {contenido.map((item, i) => (
+        {menuItems.map((item, i) => (
           <li
             key={i}
             className="text-sm font-semibold text-gray-700 relative cursor-pointer transition-all duration-300 hover:text-blue-700 group"
           >
             <Link to={item.path}>
               {item.nombre}
-              {/* Línea superior en hover */}
               <span className="absolute -top-2 left-0 w-full h-1 bg-blue-700 scale-x-0 group-hover:scale-x-100 transition-transform origin-center duration-300 rounded-full"></span>
             </Link>
           </li>

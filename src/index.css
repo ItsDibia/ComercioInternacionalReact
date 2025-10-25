@@ -2,6 +2,7 @@
 
 body {
     overflow-x:hidden ;
+    zoom:80%;
 }
 
 ::-webkit-scrollbar {
