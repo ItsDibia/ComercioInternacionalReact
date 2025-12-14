@@ -78,12 +78,6 @@ export default function Header() {
             </p>
           </div>
           
-          <div className="mt-8 p-6 bg-blue-50 rounded-2xl border-l-4 border-blue-500 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
-            <p className="text-blue-800 font-medium">
-              💡 Esta guía está diseñada para ser tu compañero en el proceso de exportación, 
-              proporcionando información práctica y actualizada.
-            </p>
-          </div>
         </section>
       )}
 
